@@ -1,7 +1,7 @@
 # social-media-system
 REStFul API including full information about the posts and users. The service was implemented using a hexagonal architecture.
 ## Database structure
-photo
+![img.png](img.png)
 ## Technologies
 * Spring Boot
 * Gradle
