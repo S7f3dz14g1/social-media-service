@@ -1,0 +1,12 @@
+version: '3.5'
+services:
+  postgres:
+    image: postgres:12
+    ports:
+      - "5455:5432"
+    environment:
+      POSTGRES_DB: "social"
+      POSTGRES_USER: "social"
+      POSTGRES_PASSWORD: "social"
+    volumes:
+      - ./src/main/resources/docker/:/docker-entrypoint-initdb.d/
